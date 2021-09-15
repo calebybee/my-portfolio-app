@@ -3,8 +3,7 @@ import "./testimonials.min.css"
 
 export default function Testimonials() {
   return (
-    <div className="testimonials">
-      asdf
+    <div className="testimonials" id="testimonials">
     </div>
   )
 }

@@ -1,8 +1,62 @@
-$topbar-height: 70px;
+@import '../../global.scss';
+
+
 .topbar {
   width: 100%;
   height: $topbar-height;
-  background-color: #280972;
+  background-color: white;
+  color: $brandColor;
   position: fixed;
   top: 0;
+  z-index: 2;
+
+  .wrapper {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .wrapper-left {
+      display: flex;
+      align-items: center;
+
+      .logo {
+        font-size: 40px;
+        font-weight: 700;
+        text-decoration: none;
+        color: inherit;
+        margin-right: 40px;
+      }
+      .item-container {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+
+        .icon {
+          font-size: 18px;
+          margin-right: 5px;
+        }
+        .span {
+          font-size: 15px;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .wrapper-right {
+
+      .hamburger {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+
+        .menu-material-icon {
+          color: $brandColor;
+          font-size: 40px;
+        }
+      }
+    }
+
+
+  }
 }
