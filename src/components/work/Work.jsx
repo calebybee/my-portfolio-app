@@ -1,10 +1,9 @@
 import React from 'react'
-import "./work.scss"
+import "./work.min.css"
 
 export default function Work() {
   return (
     <div className="work">
-
     </div>
   )
 }

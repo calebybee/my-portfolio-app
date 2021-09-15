@@ -1,3 +1,8 @@
+$topbar-height: 70px;
 .topbar {
-  background-color: lightpink;
+  width: 100%;
+  height: $topbar-height;
+  background-color: #280972;
+  position: fixed;
+  top: 0;
 }
