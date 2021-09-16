@@ -5,7 +5,7 @@ import MenuIcon from "@material-ui/icons/Menu"
 
 export default function Topbar() {
   return (
-    <div className="topbar">
+    <div className="topbar active">
       <div className="wrapper">
         <div className="wrapper-left">
           <a href="#intro" className="logo">Cale Bybee</a>
@@ -19,9 +19,11 @@ export default function Topbar() {
           </div>
         </div>
         <div className="wrapper-right">
-          <div className="hamburger">
-            <MenuIcon className="menu-material-icon"/>
-          </div>
+          <button className="hamburger">
+            <span className="bar1"></span>
+            <span className="bar2"></span>
+            <span className="bar3"></span>
+          </button>
         </div>
       </div>
     </div>
