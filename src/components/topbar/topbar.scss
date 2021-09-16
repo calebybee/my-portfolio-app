@@ -9,6 +9,7 @@
   position: fixed;
   top: 0;
   z-index: 2;
+  transition: all 1s ease;
 
   .wrapper {
     height: 50px;
@@ -61,11 +62,30 @@
           height: 3px;
           width: 100%;
           background-color: $brandColor;
+          transform-origin: left;
+          transition: all 2s ease;
 
         }
       }
     }
+  }
 
+  &.active {
+    background: $brandColor;
+    color: white;
+    .wrapper .wrapper-right .hamburger span {
 
+      &:first-child {
+        background-color: white;
+        transform: rotate(45deg);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:last-child {
+        background-color: white;
+        transform: rotate(-45deg);
+      }
+    }
   }
 }
