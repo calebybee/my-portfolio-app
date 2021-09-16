@@ -1,7 +1,6 @@
 import React from 'react'
 import "./topbar.min.css"
 import {PhoneIphone,Mail} from "@material-ui/icons"
-import MenuIcon from "@material-ui/icons/Menu"
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
