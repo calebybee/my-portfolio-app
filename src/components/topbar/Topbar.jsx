@@ -3,9 +3,9 @@ import "./topbar.min.css"
 import {PhoneIphone,Mail} from "@material-ui/icons"
 import MenuIcon from "@material-ui/icons/Menu"
 
-export default function Topbar() {
+export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
-    <div className="topbar active">
+    <div className={ "topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="wrapper-left">
           <a href="#intro" className="logo">Cale Bybee</a>
@@ -19,7 +19,7 @@ export default function Topbar() {
           </div>
         </div>
         <div className="wrapper-right">
-          <button className="hamburger">
+          <button className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
             <span className="bar1"></span>
             <span className="bar2"></span>
             <span className="bar3"></span>
