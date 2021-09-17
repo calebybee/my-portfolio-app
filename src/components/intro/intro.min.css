@@ -1,1 +1,1 @@
-.intro{background-color:white;display:flex}
+.intro{background-color:white;display:flex}.intro .left-intro{flex:0.5;overflow:hidden}.intro .left-intro .img-container{width:700px;height:700px}.intro .right-intro{flex:0.5}

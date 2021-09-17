@@ -1,4 +1,16 @@
 .intro {
   background-color: white;
   display: flex;
+
+  .left-intro {
+    flex: 0.5;
+    overflow: hidden;
+    .img-container {
+      width: 700px;
+      height: 700px;
+    }
+  }
+  .right-intro {
+    flex: 0.5;
+  }
 }
