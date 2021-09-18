@@ -56,7 +56,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With React, HTML, SCSS</a></li>
+        <li><a href="#built-with">Built With React, SCSS, HTML</a></li>
       </ul>
     </li>
     <li>
@@ -81,15 +81,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`calebybee`, `calebybee`, `twitter_handle`, `bybeecale@gmail.com`, `Portfolio App`, `This is a code-along tutorial to help me better learn react. After this, I'll build my own!`
-
 ### Built With
 
-- []()
-- []()
-- []()
+- [React]()
+- [HTML]()
+- [SCSS]()
 
 <!-- GETTING STARTED -->
 
