@@ -6,7 +6,7 @@ export default function Portfolio() {
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
       <ul>
-        <li>Featured</li>
+        <li className="active">Featured</li>
         <li>Web App</li>
         <li>Mobile App</li>
         <li>Design</li>
@@ -14,7 +14,27 @@ export default function Portfolio() {
       </ul>
       <div className="container">
         <div className="item">
-          <img src="assets/blockchain.jpg" alt="blockchain app"></img>
+          <img src="assets/bank.png" alt="blockchain app"></img>
+          <h3>Blockchain App</h3>
+        </div>
+        <div className="item">
+          <img src="assets/bank.png" alt="blockchain app"></img>
+          <h3>Blockchain App</h3>
+        </div>
+        <div className="item">
+          <img src="assets/bank.png" alt="blockchain app"></img>
+          <h3>Blockchain App</h3>
+        </div>
+        <div className="item">
+          <img src="assets/bank.png" alt="blockchain app"></img>
+          <h3>Blockchain App</h3>
+        </div>
+        <div className="item">
+          <img src="assets/bank.png" alt="blockchain app"></img>
+          <h3>Blockchain App</h3>
+        </div>
+        <div className="item">
+          <img src="assets/bank.png" alt="blockchain app"></img>
           <h3>Blockchain App</h3>
         </div>
       </div>
