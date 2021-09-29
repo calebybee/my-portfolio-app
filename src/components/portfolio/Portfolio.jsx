@@ -1,5 +1,5 @@
-import React from 'react'
-import "./portfolio.min.css"
+import React from "react";
+import "./portfolio.min.css";
 
 export default function Portfolio() {
   return (
@@ -14,10 +14,10 @@ export default function Portfolio() {
       </ul>
       <div className="container">
         <div className="item">
-          <img src="" alt=""></img>
-          <h3>Banking App</h3>
+          <img src="assets/blockchain.jpg" alt="blockchain app"></img>
+          <h3>Blockchain App</h3>
         </div>
       </div>
     </div>
-  )
+  );
 }
