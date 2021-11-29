@@ -1,11 +1,10 @@
-@import '../../global.scss';
-
+@import "../../global.scss";
 
 .topbar {
   width: 100%;
   height: $topbar-height;
-  background-color: white;
-  color: $brandColor;
+  background-color: $brandColor;
+  color: #4cc9f0;
   position: fixed;
   top: 0;
   z-index: 3;
@@ -42,11 +41,17 @@
           font-size: 15px;
           font-weight: 400;
         }
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+        a.image-link:focus {
+          outline: 0;
+        }
       }
     }
 
     .wrapper-right {
-
       .hamburger {
         width: 32px;
         height: 25px;
@@ -61,29 +66,27 @@
           display: inline-block;
           height: 3px;
           width: 100%;
-          background-color: $brandColor;
+          background-color: #4cc9f0;
           transform-origin: left;
           transition: all 1s ease;
-
         }
       }
     }
   }
 
   &.active {
-    background: $brandColor;
-    color: white;
+    background: #4cc9f0;
+    color: $brandColor;
     .wrapper .wrapper-right .hamburger span {
-
       &:first-child {
-        background-color: white;
+        background-color: $brandColor;
         transform: rotate(45deg);
       }
       &:nth-child(2) {
         opacity: 0;
       }
       &:last-child {
-        background-color: white;
+        background-color: $brandColor;
         transform: rotate(-45deg);
       }
     }

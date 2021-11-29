@@ -1,4 +1,4 @@
-import { Mail, PhoneIphone } from "@material-ui/icons";
+import { Mail } from "@material-ui/icons";
 import React from "react";
 import "./topbar.min.css";
 
@@ -9,12 +9,9 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className="wrapper-left">
           <a href="#intro" className="logo">hired.</a>
           <div className="item-container">
-            <PhoneIphone className="icon" />
-            <span>(801) 777-8777</span>
-          </div>
-          <div className="item-container">
+            <a href="mailto:bybeecale@gmail.com" target="_blank" rel="noopener noreferrer">
             <Mail className="icon" />
-            <span>bybeecale@gmail.com</span>
+            <span>Get in touch</span></a>
           </div>
         </div>
         <div className="wrapper-right">
