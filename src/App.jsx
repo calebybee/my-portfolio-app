@@ -1,3 +1,6 @@
+import CodeIcon from '@mui/icons-material/Code';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import React, { useState } from "react";
 import "./app.min.css";
 import Contact from "./components/contact/Contact";
@@ -22,6 +25,26 @@ function App() {
         <Education />
         <Testimonials />
         <Contact />
+      </div>
+      <div className="left-sidebar">
+        <ul>
+          <li className="sidebar-icons">
+            <a href="https://github.com/calebybee" target="_blank" rel="noopener noreferrer">
+              <GitHubIcon />
+            </a>
+          </li>
+          <li className="sidebar-icons">
+            <a href="https://www.linkedin.com/in/calebybee/" target="_blank" rel="noopener noreferrer">
+              <LinkedInIcon />
+            </a>
+          </li>
+          <li className="sidebar-icons">
+            <a href="https://www.codewars.com/users/calebybee/" target="_blank" rel="noopener noreferrer">
+              <CodeIcon />
+            </a>
+          </li>
+
+        </ul>
       </div>
     </div>
   );

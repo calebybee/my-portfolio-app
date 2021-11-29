@@ -20,6 +20,32 @@
     }
   }
 }
+
+.left-sidebar {
+  position: sticky;
+  margin-left: 3rem;
+  margin-bottom: 50px;
+  z-index: 1;
+  color: white;
+  ul {
+    list-style-type: none;
+  }
+  .sidebar-icons {
+    height: 100%;
+    width: 100%;
+    color: white;
+    :hover {
+      color: #4cc2f0;
+    }
+    a {
+      color: white;
+      height: 100%;
+      width: 100%;
+      display: block;
+      text-decoration: none;
+    }
+  }
+}
 @media only screen and (max-width: 480px) {
   .topbar .wrapper .wrapper-left .item-container {
     display: none;
