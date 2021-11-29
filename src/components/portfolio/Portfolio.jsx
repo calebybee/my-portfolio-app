@@ -1,5 +1,4 @@
 import React from "react";
-import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.min.css";
 
 export default function Portfolio() {
@@ -25,13 +24,12 @@ export default function Portfolio() {
       title: "Content",
     },
   ];
+  const listItems = list.map((d) => <li id={d.id}>{d.title}</li>);
   return (
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
       <ul>
-        {list.map((item) => (
-          <PortfolioList title={item.title} />
-        ))}
+        {listItems }
       </ul>
       <div className="container">
         <div className="item">
