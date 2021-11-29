@@ -1,5 +1,5 @@
 import React from "react";
-import PortfolioList from "../portfolioList/portfolioList";
+import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.min.css";
 
 export default function Portfolio() {
