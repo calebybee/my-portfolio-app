@@ -31,7 +31,7 @@ export default function Intro() {
           If you're seeing this message, my site is still under development. Check back often for updates :D
         </p>
 
-        <a href="#portfolio">
+        <a className="arrow" href="#portfolio">
           <img src="assets/white-arrow-nb.png" alt="down-arrow"></img>
         </a>
       </div>
