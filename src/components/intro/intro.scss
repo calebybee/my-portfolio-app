@@ -1,5 +1,7 @@
+@import "../../global.scss";
+
 .intro {
-  background-color: #001d3d;
+  background-color: $brandColor;
   display: flex;
 
   .intro-wrapper {
