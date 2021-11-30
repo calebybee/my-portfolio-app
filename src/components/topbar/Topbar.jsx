@@ -9,7 +9,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className="wrapper-left">
           <a href="#intro" className="logo">hired.</a>
           <div className="item-container">
-            <a href="mailto:bybeecale@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:bybeecale@gmail.com?subject=Found you from hired." target="_blank" rel="noopener noreferrer">
             <Mail className="icon" />
             <span>Get in touch</span></a>
           </div>
