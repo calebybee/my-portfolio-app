@@ -19,7 +19,7 @@ export default function Sidebar() {
                 <LinkedInIcon />
               </a>
             </li>
-            <li className="sidebar-list-item">
+            <li className="sidebar-list-item" id="last-item">
               <a className="sidebar-links" href="https://www.codewars.com/users/calebybee/" target="_blank" rel="noopener noreferrer">
                 <CodeIcon />
               </a>

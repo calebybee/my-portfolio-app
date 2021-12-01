@@ -31,8 +31,9 @@
     }
 
     .sidebar-list-item {
-      padding-bottom: 10px;
+      padding-bottom: 15px;
       display: inline-block;
+      margin-bottom: 5px;
 
       :hover {
         color: #4cc2f0;
@@ -43,6 +44,9 @@
         text-decoration: none;
         display: block;
       }
+    }
+    #last-item {
+      padding-bottom: 0;
     }
   }
   .right-sidebar {
@@ -67,6 +71,7 @@
         padding-left: 6.75rem;
         display: inline-block;
         transform: rotate(90deg);
+        margin-bottom: 20px;
 
         .email-link {
           display: block;
