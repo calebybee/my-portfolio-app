@@ -1,33 +1,91 @@
-.left-sidebar {
-  top: 80%;
+.sidebar {
   position: absolute;
-  width: 40px;
-  z-index: 1;
-  .left-sidebar-list {
+  height: 100%;
+  width: 100%;
+
+  .left-sidebar {
+    z-index: 1;
+    margin-left: 15px;
+    top: 70vh;
     position: fixed;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-  }
-  .left-sidebar-list::after {
-    content: "";
-    width: 1px;
-    height: 100px;
-    background-color: rgb(206, 199, 199);
-    margin-left: 11px;
-  }
-  .sidebar-icons {
-    width: 25px;
+    width: 40px;
     height: 100%;
-    padding-bottom: 5px;
-    :hover {
-      color: #4cc2f0;
+    display: flex;
+    justify-content: center;
+
+    .left-sidebar-list {
+      padding: 0;
+      margin: 0;
+      position: fixed;
+      display: flex;
+      flex-direction: column;
     }
-    .sidebar-links {
-      color: rgb(206, 199, 199);
-      text-decoration: none;
-      height: 100%;
-      width: 100%;
+
+    .left-sidebar-list::after {
+      content: "";
+      width: 1px;
+      height: 100vh;
+      background-color: rgb(206, 199, 199);
+      margin-left: 50%;
+      margin-top: 50%;
+    }
+
+    .sidebar-list-item {
+      padding-bottom: 10px;
+      display: inline-block;
+
+      :hover {
+        color: #4cc2f0;
+      }
+
+      .sidebar-links {
+        color: rgb(206, 199, 199);
+        text-decoration: none;
+        display: block;
+      }
+    }
+  }
+  .right-sidebar {
+    z-index: 1;
+    margin-right: 15px;
+    top: 70vh;
+    position: fixed;
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    right: 0;
+
+    .right-sidebar-list {
+      padding: 0;
+      margin: 0;
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+
+      .right-sidebar-list-item {
+        padding-left: 6.75rem;
+        display: inline-block;
+        transform: rotate(90deg);
+
+        .email-link {
+          display: block;
+          color: #4cc2f0;
+          text-decoration: none;
+          font-size: 12px;
+          :hover {
+            color: white;
+          }
+        }
+      }
+    }
+    .right-sidebar-list::after {
+      content: "";
+      width: 1px;
+      height: 100vh;
+      background-color: rgb(206, 199, 199);
+      margin-left: 50%;
+      margin-top: 50%;
     }
   }
 }
