@@ -70,12 +70,12 @@
 
         .email-link {
           display: block;
-          color: #4cc2f0;
+          color: rgb(206, 199, 199);
           text-decoration: none;
           font-size: 12px;
-          :hover {
-            color: white;
-          }
+        }
+        :hover {
+          color: #4cc2f0;
         }
       }
     }
