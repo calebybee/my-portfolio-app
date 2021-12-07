@@ -30,7 +30,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/calebybee/my-portfolio-app">
-    <img src="public/assets/logo.png" alt="Logo" width="120" height="80">
+    <img src="public/assets/logo.png" alt="Logo" width="135" height="80">
   </a>
 
   <h3 align="center">Portfolio App</h3>
