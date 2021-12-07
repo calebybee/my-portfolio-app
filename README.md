@@ -19,12 +19,12 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Contributors][contributors-shield]][contributors-url]
+<!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 <!-- PROJECT LOGO -->
 <br />
@@ -36,12 +36,9 @@
   <h3 align="center">Portfolio App</h3>
 
   <p align="center">
-    This is a code-along tutorial to help me better learn react. After this, I'll build my own!
+    Welcome to my porfolio app. It's a work in progress, but feel free to explore!
     <br />
-    <a href="https://github.com/calebybee/calebybee"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/calebybee/calebybee">View Demo</a>
+    <a href="https://calebybee.com">View Demo</a>
     ·
     <a href="https://github.com/calebybee/calebybee/issues">Report Bug</a>
     ·
@@ -114,7 +111,7 @@ This is an example of how to list things you need to use the software and how to
    ```
 2. Install NPM packages
    ```sh
-   npm install
+   npm install ityped
    ```
 
 <!-- USAGE EXAMPLES -->
@@ -153,30 +150,30 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - bybeecale@gmail.com
+Cale Bybee - [@CaleBybee](https://twitter.com/CaleBybee) - bybeecale@gmail.com
 
-Project Link: [https://github.com/calebybee/calebybee](https://github.com/calebybee/calebybee)
+Project Link: [https://calebybee.com](https://calebybee.com)
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## Acknowledgements
+<!-- ## Acknowledgements
 
 - []()
 - []()
-- []()
+- []() -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/calebybee/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/calebybee/calebybee/graphs/contributors
+[contributors-url]: https://github.com/calebybee/my-portfolio-app/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/calebybee/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/calebybee/calebybee/network/members
+[forks-url]: https://github.com/calebybee/my-portfolio-app/network/members
 [stars-shield]: https://img.shields.io/github/stars/calebybee/repo.svg?style=for-the-badge
 [stars-url]: https://github.com/calebybee/calebybee/stargazers
 [issues-shield]: https://img.shields.io/github/issues/calebybee/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/calebybee/calebybee/issues
+[issues-url]: https://github.com/calebybee/my-portfolio-app/issues
 [license-shield]: https://img.shields.io/github/license/calebybee/repo.svg?style=for-the-badge
-[license-url]: https://github.com/calebybee/calebybee/blob/master/LICENSE.txt
+[license-url]: https://github.com/calebybee/my-portfolio-app/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/calebybee
