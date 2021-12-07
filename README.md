@@ -76,7 +76,7 @@
 
 ## About The Project
 
-[![Example of Portfolio]](https://github.com/calebybee/my-portfolio-app/blob/master/public/assets/Example-Pic.png)
+![Example of Portfolio](https://github.com/calebybee/my-portfolio-app/blob/master/public/assets/Example-Pic.png)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
