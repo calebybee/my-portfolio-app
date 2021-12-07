@@ -29,8 +29,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/calebybee/calebybee">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/calebybee/my-portfolio-app">
+    <img src="public/assets/Example-Pic.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Portfolio App</h3>
