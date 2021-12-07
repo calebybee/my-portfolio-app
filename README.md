@@ -30,19 +30,19 @@
 <br />
 <p align="center">
   <a href="https://github.com/calebybee/my-portfolio-app">
-    <img src="public/assets/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/assets/logo.png" alt="Logo" width="120" height="80">
   </a>
 
   <h3 align="center">Portfolio App</h3>
 
   <p align="center">
-    Welcome to my porfolio app. It's a work in progress, but feel free to explore!
+    Welcome to my portfolio app. It's a work in progress, but feel free to explore!
     <br />
     <a href="https://calebybee.com">View Demo</a>
     ·
-    <a href="https://github.com/calebybee/calebybee/issues">Report Bug</a>
+    <a href="https://github.com/calebybee/my-portfolio-app/issues">Report Bug</a>
     ·
-    <a href="https://github.com/calebybee/calebybee/issues">Request Feature</a>
+    <a href="https://github.com/calebybee/my-portfolio-app/issues">Request Feature</a>
   </p>
 </p>
 
@@ -53,7 +53,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With React, HTML, SCSS</a></li>
+        <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
@@ -78,15 +78,17 @@
 
 ![Example of Portfolio](https://github.com/calebybee/my-portfolio-app/blob/master/public/assets/Example-Pic.png)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`calebybee`, `calebybee`, `twitter_handle`, `bybeecale@gmail.com`, `Portfolio App`, `This is a code-along tutorial to help me better learn react. After this, I'll build my own!`
+I started this project as a way to learn React. However, in doing so I realized a better use of my time would be to create a portfolio. I have to give creative credit to Brittany Chiang as the baseline for my design ideas. See her website and work [here](https://brittanychiang.com/). Check back often for updates and enhancements!
+
+<!-- **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
+`calebybee`, `calebybee`, `twitter_handle`, `bybeecale@gmail.com`, `Portfolio App`, `This is a code-along tutorial to help me better learn react. After this, I'll build my own!` -->
 
 ### Built With
 
-- []()
-- []()
-- []()
+- [React](https://reactjs.org/)
+- [Material UI](https://mui.com/)
+- Scss/Sass
+- Bitbucket Pipelines
 
 <!-- GETTING STARTED -->
 
@@ -112,27 +114,28 @@ This is an example of how to list things you need to use the software and how to
 2. Install NPM packages
    ```sh
    npm install ityped
+   npm install @mui/material @emotion/react @emotion/styled
    ```
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
+<!-- ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 <!-- ROADMAP -->
 
-## Roadmap
+<!-- ## Roadmap
 
-See the [open issues](https://github.com/calebybee/calebybee/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/calebybee/calebybee/issues) for a list of proposed features (and known issues). -->
 
 <!-- CONTRIBUTING -->
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions or ideas you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
